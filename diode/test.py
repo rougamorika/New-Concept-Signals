@@ -11,7 +11,7 @@ a = ideal_diode.ideal_diode_current(float(x))
 a_drop= ideal_diode.ideal_diode_current_with_drop(float(x),float(v_drop))
 a_ramp= ideal_diode.ramp_diode_current(float(x),0.026,0.1)
 a_exp= ideal_diode.exp_diode_current(float(x),0.026)
-print("\n")
+
 print("ideal:"+str(a)+" volts")
 print("drop_ideal:"+str(a_drop)+" volts")
 print("ramp:"+str(a_ramp)+" volts")
